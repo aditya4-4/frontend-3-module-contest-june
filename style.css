@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 1.5rem;
+}
+
+
+.btn{
+    padding: 12px 55px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.ipDetails{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+
+.ipDetails ul{
+    list-style: none;
+    font-size: 22px;
+}
+
+
+.ipDetails ul li{
+    letter-spacing: 1px;
+}
+
+
+.map{
+    width: 100%;
+    height: 65vh;
+}
+
+
+#timezone h3{
+    margin: 9px 0;
+}
+
+
+#timezone{
+    margin: 45px 0;
+}
+
+
+#searchBoxed{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#searchBoxed input{
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 9px 15px;
+    border: 2px solid black;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+#postOfficeList{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    row-gap: 15px;
+    column-gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+#postOfficeList ul{
+    width: 500px;
+    margin: 10px 0;
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#postOfficeList ul{
+    padding: 25px;
+}
+
+#postOfficeList ul li{
+    margin: 15px 0;
+    font-size: 20px;
+
+}
+
+.second{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
